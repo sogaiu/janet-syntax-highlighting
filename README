@@ -1,0 +1,24 @@
+Maintenance tool for updating syntax highlighting info for various
+editors and tools such as:
+
+* helix
+* janet-ts-mode
+* nvim-treesitter
+* pygments
+* rouge
+
+Usage: jshd [option] | jshd [name]
+
+Dump Janet syntax highlighting info for various tools.
+
+  -h, --help                   show this output
+
+  -l, --list                   show supported names
+
+  --bash-completion            output bash-completion bits
+  --fish-completion            output fish-completion bits
+  --zsh-completion             output zsh-completion bits
+  --raw-all                    show all names for completion
+
+With a name, but no options, output Janet syntax highlighting bits for
+the version of `janet` in use.
