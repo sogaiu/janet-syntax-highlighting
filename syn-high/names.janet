@@ -119,10 +119,10 @@
      buffer/push-byte buffer/push-float32 buffer/push-float64
      buffer/push-string buffer/push-uint16 buffer/push-uint32
      buffer/push-uint64 buffer/push-word buffer/slice buffer/trim
-     buffer? bundle/add bundle/add-directory bundle/add-file
-     bundle/install bundle/installed? bundle/list bundle/manifest
-     bundle/prune bundle/reinstall bundle/topolist bundle/uninstall
-     bundle/update-all bxor bytes?
+     buffer? bundle/add bundle/add-bin bundle/add-directory
+     bundle/add-file bundle/install bundle/installed? bundle/list
+     bundle/manifest bundle/prune bundle/reinstall bundle/topolist
+     bundle/uninstall bundle/update-all bxor bytes?
 
      cancel cfunction? cli-main cmp comp compare compare< compare<=
      compare= compare> compare>= compile complement count curenv
