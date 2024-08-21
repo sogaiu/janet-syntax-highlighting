@@ -150,9 +150,9 @@
      fiber/new fiber/root fiber/setenv fiber/setmaxstack fiber/status
      fiber? file/close file/flush file/lines file/open file/read
      file/seek file/tell file/temp file/write filewatch/add
-     filewatch/listen filewatch/make filewatch/remove filter find
-     find-index first flatten flatten-into flush flycheck freeze
-     frequencies from-pairs function?
+     filewatch/listen filewatch/new filewatch/remove filewatch/unlisten
+     filter find find-index first flatten flatten-into flush flycheck
+     freeze frequencies from-pairs function?
 
      gccollect gcinterval gcsetinterval gensym geomean get get-in
      getline getproto group-by
