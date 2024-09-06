@@ -19,23 +19,19 @@
   @["hello" "there" "sam"]
 
   (split-words
-    ``
-    A first paragraph.
-
-    A second paragraph.
-    ``)
+    (string "A first paragraph.\n"
+            "\n"
+            "A second paragraph."))
   # =>
   @["A" "first" "paragraph."
     "\n\n"
     "A" "second" "paragraph."]
 
   (split-words
-    ``
-    A first paragraph.
-
-
-    A second paragraph.
-    ``)
+    (string "A first paragraph.\n"
+            "\n"
+            "\n"
+            "A second paragraph."))
   # =>
   @["A" "first" "paragraph."
     "\n\n"
@@ -99,39 +95,37 @@
 (comment
 
   (format
-    ``
-    With a peg-special, but no options, show docs and usages.
-    If any of "integer", "string", or "struct" are specified as the
-    "peg-special", show docs and usages about using those as PEG
-    constructs.
-
-    With the `-d` or `--doc` option, show docs for specified
-    PEG special, or if none specified, for a randomly chosen one.
-
-    With the `-q` or `--quiz` option, show quiz question for
-    specified PEG special, or if none specified, for a randonly chosen
-    one.
-    ``
+    (string
+      "With a peg-special, but no options, show docs and usages.\n"
+      `If any of "integer", "string", or "struct" are specified as the` "\n"
+      `"peg-special", show docs and usages about using those as PEG` "\n"
+      "constructs.\n"
+      "\n"
+      "With the `-d` or `--doc` option, show docs for specified\n"
+      "PEG special, or if none specified, for a randomly chosen one.\n"
+      "\n"
+      "With the `-q` or `--quiz` option, show quiz question for\n"
+      "specified PEG special, or if none specified, for a randonly chosen\n"
+      "one.")
     2 2 2 40)
   # =>
-  @``
-     With a peg-special, but no options,
-     show docs and usages. If any of
-     "integer", "string", or "struct" are
-     specified as the "peg-special", show
-     docs and usages about using those as
-     PEG constructs.
-
-     With the `-d` or `--doc` option, show
-     docs for specified PEG special, or if
-     none specified, for a randomly chosen
-     one.
-
-     With the `-q` or `--quiz` option,
-     show quiz question for specified PEG
-     special, or if none specified, for a
-     randonly chosen one.
-   ``
+   (buffer
+     "  With a peg-special, but no options,\n"
+     "  show docs and usages. If any of\n"
+     `  "integer", "string", or "struct" are` "\n"
+     `  specified as the "peg-special", show` "\n"
+     "  docs and usages about using those as\n"
+     "  PEG constructs.\n"
+     "\n"
+     "  With the `-d` or `--doc` option, show\n"
+     "  docs for specified PEG special, or if\n"
+     "  none specified, for a randomly chosen\n"
+     "  one.\n"
+     "\n"
+     "  With the `-q` or `--quiz` option,\n"
+     "  show quiz question for specified PEG\n"
+     "  special, or if none specified, for a\n"
+     "  randonly chosen one.")
 
   )
 
