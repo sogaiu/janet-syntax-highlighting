@@ -281,7 +281,7 @@
      *module-loading* *module-make-env* *module-paths*
      *out*
      *peg-grammar* *pretty-format* *profilepath*
-     *redef*
+     *redef* *repl-prompt*
      *syspath*
      *task-id*]
 
