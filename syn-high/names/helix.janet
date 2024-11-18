@@ -12,14 +12,14 @@
    "?" `\\?`})
 
 (def char-escapes-set
-  (string/join (keys sym-char-escapes) ""))
+  (string/join (sort (keys sym-char-escapes)) ""))
 
 (comment
 
   char-escapes-set
   # =>
-  "+-.?*"
-  
+  "*+-.?"
+
   )
 
 (defn escape
