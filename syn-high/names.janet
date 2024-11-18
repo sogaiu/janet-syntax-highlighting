@@ -34,7 +34,7 @@
   macros
   # =>
   '@[%= *= ++ += -- -= -> ->> -?> -?>> /=
-     and as-> as-macro as?-> assert
+     and as-> as-macro as?-> assert assertf
      case catseq chr comment compif comptime compwhen cond coro
      def- default defdyn defer defmacro defmacro- defn defn- delay
      doc
@@ -59,7 +59,7 @@
 
   (all |(index-of $ macros)
        '@[%= *= ++ += -- -= -> ->> -?> -?>> /=
-          and as-> as-macro as?-> assert
+          and as-> as-macro as?-> assert assertf
           case catseq chr comment compif comptime compwhen cond coro
           def- default defdyn defer defmacro defmacro- defn defn- delay
           doc
