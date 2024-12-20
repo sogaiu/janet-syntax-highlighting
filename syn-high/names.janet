@@ -139,7 +139,7 @@
      ev/chunk ev/close ev/count ev/deadline ev/full ev/give
      ev/give-supervisor ev/go ev/lock ev/read ev/release-lock
      ev/release-rlock ev/release-wlock ev/rselect ev/rwlock ev/select
-     ev/sleep ev/take ev/thread ev/thread-chan ev/write eval
+     ev/sleep ev/take ev/thread ev/thread-chan ev/to-file ev/write eval
      eval-string even? every? extreme
 
      false? ffi/align ffi/call ffi/calling-conventions ffi/close
