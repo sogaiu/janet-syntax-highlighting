@@ -217,8 +217,9 @@
      string/has-prefix? string/has-suffix? string/join string/repeat
      string/replace string/replace-all string/reverse string/slice
      string/split string/trim string/triml string/trimr string?
-     struct struct/getproto struct/proto-flatten struct/to-table
-     struct/with-proto struct? sum symbol symbol/slice symbol?
+     struct struct/getproto struct/proto-flatten struct/rawget
+     struct/to-table struct/with-proto struct? sum symbol
+     symbol/slice symbol?
 
      table table/clear table/clone table/getproto table/new
      table/proto-flatten table/rawget table/setproto table/to-struct
