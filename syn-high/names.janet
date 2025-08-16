@@ -186,8 +186,8 @@
      nan? nat? native neg? net/accept net/accept-loop net/address
      net/address-unpack net/chunk net/close net/connect net/flush
      net/listen net/localname net/peername net/read net/recv-from
-     net/send-to net/server net/setsockopt net/shutdown net/write next
-     nil? not not= number?
+     net/send-to net/server net/setsockopt net/shutdown net/socket
+     net/write next nil? not not= number?
 
      odd? one? os/arch os/cd os/chmod os/clock os/compiler
      os/cpu-count os/cryptorand os/cwd os/date os/dir os/environ
