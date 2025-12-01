@@ -193,8 +193,9 @@
      os/cpu-count os/cryptorand os/cwd os/date os/dir os/environ
      os/execute os/exit os/getenv os/getpid os/isatty os/link os/lstat
      os/mkdir os/mktime os/open os/perm-int os/perm-string os/pipe
-     os/posix-exec os/posix-fork os/proc-close os/proc-kill
-     os/proc-wait os/readlink os/realpath os/rename os/rm os/rmdir
+     os/posix-chroot os/posix-exec os/posix-fork
+     os/proc-close os/proc-kill os/proc-wait
+     os/readlink os/realpath os/rename os/rm os/rmdir
      os/setenv os/setlocale os/shell os/sigaction os/sleep os/spawn
      os/stat os/strftime os/symlink os/time os/touch os/umask os/which
 
