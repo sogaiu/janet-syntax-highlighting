@@ -120,9 +120,10 @@
      buffer/push-string buffer/push-uint16 buffer/push-uint32
      buffer/push-uint64 buffer/push-word buffer/slice buffer/trim
      buffer? bundle/add bundle/add-bin bundle/add-directory
-     bundle/add-file bundle/install bundle/installed? bundle/list
-     bundle/manifest bundle/prune bundle/reinstall bundle/replace
-     bundle/topolist bundle/uninstall bundle/update-all bundle/whois
+     bundle/add-file bundle/add-manpage bundle/install
+     bundle/installed? bundle/list bundle/manifest bundle/prune
+     bundle/reinstall bundle/replace bundle/topolist
+     bundle/uninstall bundle/update-all bundle/whois
      bxor bytes?
 
      cancel cfunction? cli-main cmp comp compare compare< compare<=
