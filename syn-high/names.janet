@@ -279,7 +279,8 @@
      *current-file*
      *debug* *defdyn-prefix* *doc-color* *doc-width*
      *err* *err-color* *executable* *exit* *exit-value*
-     *ffi-context* *lint-error* *lint-levels* *lint-warn*
+     *ffi-context* *flychecking*
+     *lint-error* *lint-levels* *lint-warn*
      *macro-form* *macro-lints* *module-cache* *module-loaders*
      *module-loading* *module-make-env* *module-paths*
      *out*
