@@ -7,6 +7,10 @@ editors and tools such as:
 * pygments
 * rouge
 
+Credits:
+
+* salvipeter
+
 Usage: jshd [option] | jshd [name]
 
 Dump Janet syntax highlighting info for various tools.
