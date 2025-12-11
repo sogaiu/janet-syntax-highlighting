@@ -227,8 +227,8 @@
      table table/clear table/clone table/getproto table/new
      table/proto-flatten table/rawget table/setproto table/to-struct
      table/weak table/weak-keys table/weak-values table? take
-     take-until take-while thaw trace true? truthy? tuple
-     tuple/brackets tuple/join tuple/setmap tuple/slice
+     take-until take-while thaw thaw-keep-keys trace true? truthy?
+     tuple tuple/brackets tuple/join tuple/setmap tuple/slice
      tuple/sourcemap tuple/type tuple? type
 
      unmarshal untrace update update-in
